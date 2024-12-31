@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata
+  name: env-demo
+spec:
+  containers:
+  - name: env-demo-container
+    image: nginx
+    env:
+    - name: Demo_Greet
+      value: "Hello from Dev"
+    - name: Demo_farewell
+      value: "such a sweet sorrow"
