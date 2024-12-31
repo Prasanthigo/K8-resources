@@ -5,4 +5,4 @@ metadata:
 data:
   Course: DevOps
   Tutor: Siva
-  Students: 20
+  Students: "20"
